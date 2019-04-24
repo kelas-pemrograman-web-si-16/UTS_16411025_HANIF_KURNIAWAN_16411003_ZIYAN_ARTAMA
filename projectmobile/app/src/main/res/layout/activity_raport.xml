@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="1"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    tools:context=".raport">
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#5F9EA0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/btnraport"
+                android:src="@drawable/ic_action_raport"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:background="#5F9EA0"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnraport"
+                android:layout_centerHorizontal="true"
+                android:text="raport"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#CD5C5C">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/btnkembali"
+                android:src="@drawable/ic_action_logout"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:background="#CD5C5C"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnkembali"
+                android:layout_centerHorizontal="true"
+                android:text="Back"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.v7.widget.GridLayout>

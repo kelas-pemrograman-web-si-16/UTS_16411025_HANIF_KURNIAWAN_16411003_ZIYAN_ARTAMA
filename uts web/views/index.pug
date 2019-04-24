@@ -1,0 +1,146 @@
+html
+    head
+        include head
+    body
+        // ##### Preloader #####
+        #preloader
+            i.circle-preloader
+        // ##### Header Area Start #####
+        header.header-area
+            // Top Header Area
+            .top-header
+                .container.h-100
+                    .row.h-100
+                        .col-12.h-100
+                            .header-content.h-100.d-flex.align-items-center.justify-content-between
+                                .academy-logo
+                                    a(href='/index')
+                                        img(src='loginassets/img/core-img/1.png', width='80px', height='90px', alt='')
+                                .login-content
+                                    a(href='#') Register / Login
+            // Navbar Area
+            .academy-main-menu
+                .classy-nav-container.breakpoint-off
+                    .container
+                        // Menu
+                        nav#academyNav.classy-navbar.justify-content-between
+                            // Navbar Toggler
+                            .classy-navbar-toggler
+                                span.navbarToggler
+                                    span
+                                    span
+                                    span
+                            .classy-menu
+                                .classycloseIcon
+                                    .cross-wrap
+                                        span.top
+                                        span.bottom
+                                .classynav
+                                    ul
+                                        li
+                                            a(href='/index') HOME
+                                        li
+                                            a(href='#') DASHBOARD
+                                            ul.dropdown
+                                                li
+                                                    a(href='/mapel') Mata Pelajaran
+                                                li
+                                                    a(href='/datasiswa') Data Siswa
+                                                li
+                                                    a(href='/dataguru') Data Guru
+                                                li
+                                                    a(href='/semester') Semester
+                                        li
+                                            a(href='#') RAPORT
+                                            ul.dropdown
+                                                li
+                                                    a(href='/raport') Jurusan IPA
+                                                li
+                                                    a(href='/raport') Jurusan IPS
+                                        li
+                                            a(href='') Tentang
+                                        li
+                                            a(href='') Kontak
+        section.hero-area
+            .hero-slides.owl-carousel
+                .single-hero-slide.bg-img(style='background-image: url(loginassets/img/bg-img/bg-2.jpg);')
+                    .container.h-100
+                        .row.h-100.align-items-center
+                            .col-12
+                                .hero-slides-content
+                                    h4(data-animation='fadeInUp', data-delay='100ms')
+                                    h2(data-animation='fadeInUp', data-delay='400ms')
+                                        | Selamat Datang Di
+                                        br
+                                        | Raport Online Sekolah Menengah Atas
+        .top-features-area.wow.fadeInUp(data-wow-delay='')
+            .container
+                .row
+                    .col-12
+                        .features-content
+                            .row.no-gutters
+            .call-to-action-area
+                .container
+                    .row
+                        .col-12
+                            .cta-content.d-flex.align-items-center.justify-content-between.flex-wrap
+            footer.footer-area
+                .main-footer-area.section-padding-100-0
+                    .container
+                        .row
+                            // Footer Widget Area
+                            .col-12.col-sm-6.col-lg-3
+                                .footer-widget.mb-100
+                                    .widget-title
+                                        a(href='#')
+                                            img(src='loginassets/img/core-img/2.png', width='80px', height='90px', alt='')
+                                    p Merupakan Sebuah Lembaga Pedidikan Yang Berada Dibawah Naungan Pemerintah.
+                                    .footer-social-info
+                                        a(href='#')
+                                            i.fa.fa-facebook
+                                        a(href='#')
+                                            i.fa.fa-twitter
+                                        a(href='#')
+                                            i.fa.fa-instagram
+                            // Footer Widget Area
+                            .col-12.col-sm-6.col-lg-3
+                                .footer-widget.mb-100
+                                    .widget-title
+                                        h6 Contact
+                                    .single-contact.d-flex.mb-30
+                                        i.icon-placeholder
+                                        p Kota Bandar Lampung
+                                    .single-contact.d-flex.mb-30
+                                        i.icon-telephone-1
+                                        p
+                                            | Hp 0821xxxxxxxx
+                                            br
+                                            |  Telp 0721 xx xxxx
+                                    .single-contact.d-flex
+                                        i.icon-contract
+                                        p smanegeri@gmail.com
+                .bottom-footer-area
+                    .container
+                        .row
+                            .col-12
+                                p
+                                    // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                    | Copyright ©
+                                    script.
+                                        document.write(new Date().getFullYear());
+                                    i(aria-hidden='true')
+                                    |  by Hanif Dan Ziyan
+                                    a(href='', target='_blank')
+                                    // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                                    // ##### Footer Area Start #####
+                                    // ##### All Javascript Script #####
+                                    // jQuery-2.2.4 js
+                                    script(src='loginassets/js/jquery/jquery-2.2.4.min.js')
+                                    // Popper js
+                                    script(src='loginassets/js/bootstrap/popper.min.js')
+                                    // Bootstrap js
+                                    script(src='loginassets/js/bootstrap/bootstrap.min.js')
+                                    // All Plugins js
+                                    script(src='loginassets/js/plugins/plugins.js')
+                                    // Active js
+                                    script(src='loginassets/js/active.js')

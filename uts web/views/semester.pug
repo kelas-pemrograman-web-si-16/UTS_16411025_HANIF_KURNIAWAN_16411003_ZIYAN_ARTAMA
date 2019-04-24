@@ -1,0 +1,73 @@
+html
+    head
+        include head
+    body
+        // ##### Preloader #####
+        #preloader
+            i.circle-preloader
+        // ##### Header Area Start #####
+        header.header-area
+            // Top Header Area
+            .top-header
+                .container.h-100
+                    .row.h-100
+                        .col-12.h-100
+                            .header-content.h-100.d-flex.align-items-center.justify-content-between
+                                .academy-logo
+                                    a(href='/index')
+                                        img(src='loginassets/img/core-img/1.png', width='80px', height='90px', alt='')
+            // Navbar Area
+            .academy-main-menu
+                .classy-nav-container.breakpoint-off
+                    .container
+                        // Menu
+                        nav#academyNav.classy-navbar.justify-content-between
+                            // Navbar Toggler
+                            .classy-navbar-toggler
+                                span.navbarToggler
+                                    span
+                                    span
+                                    span
+                            .classy-menu
+                                .classycloseIcon
+                                    .cross-wrap
+                                        span.top
+                                        span.bottom
+                                .classynav
+                                    ul
+                                        li
+                                            a(href='/index') HOME
+                                        li
+                                            a(href='#') DASHBOARD
+                                            ul.dropdown
+                                                li
+                                                    a(href='/mapel') Mata Pelajaran
+                                                li
+                                                    a(href='/datasiswa') Data Siswa
+                                                li
+                                                    a(href='/dataguru') Data Guru
+                                                li
+                                                    a(href='/semester') Semester
+                                        li
+                                            a(href='#') RAPORT
+                                            ul.dropdown
+                                                li
+                                                    a(href='/raport') Jurusan IPA
+                                                li
+                                                    a(href='/raport') Jurusan IPS
+                                        li
+                                            a(href='') Tentang
+                                        li
+                                            a(href='') Kontak
+            // ##### Footer Area Start #####
+            // ##### All Javascript Script #####
+            // jQuery-2.2.4 js
+            script(src='loginassets/js/jquery/jquery-2.2.4.min.js')
+            // Popper js
+            script(src='loginassets/js/bootstrap/popper.min.js')
+            // Bootstrap js
+            script(src='loginassets/js/bootstrap/bootstrap.min.js')
+            // All Plugins js
+            script(src='loginassets/js/plugins/plugins.js')
+            // Active js
+            script(src='loginassets/js/active.js')

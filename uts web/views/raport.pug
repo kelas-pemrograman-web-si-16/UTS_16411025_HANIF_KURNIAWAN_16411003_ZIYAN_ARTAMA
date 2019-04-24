@@ -1,0 +1,263 @@
+html
+    head
+        include head
+    body
+        // ##### Preloader #####
+        #preloader
+            i.circle-preloader
+        // ##### Header Area Start #####
+        header.header-area
+            // Top Header Area
+            .top-header
+                .container.h-100
+                    .row.h-100
+                        .col-12.h-100
+                            .header-content.h-100.d-flex.align-items-center.justify-content-between
+                                .academy-logo
+                                    a(href='/index')
+                                        img(src='loginassets/img/core-img/1.png', width='80px', height='90px', alt='')
+            // Navbar Area
+            .academy-main-menu
+                .classy-nav-container.breakpoint-off
+                    .container
+                        // Menu
+                        nav#academyNav.classy-navbar.justify-content-between
+                            // Navbar Toggler
+                            .classy-navbar-toggler
+                                span.navbarToggler
+                                    span
+                                    span
+                                    span
+                            .classy-menu
+                                .classycloseIcon
+                                    .cross-wrap
+                                        span.top
+                                        span.bottom
+                                .classynav
+                                    ul
+                                        li
+                                            a(href='/index') HOME
+                                        li
+                                            a(href='#') DASHBOARD
+                                            ul.dropdown
+                                                li
+                                                    a(href='/mapel') Mata Pelajaran
+                                                li
+                                                    a(href='/datasiswa') Data Siswa
+                                                li
+                                                    a(href='/dataguru') Data Guru
+                                                li
+                                                    a(href='/semester') Semester
+                                        li
+                                            a(href='#') RAPORT
+                                            ul.dropdown
+                                                li
+                                                    a(href='/raport') Jurusan IPA
+                                                li
+                                                    a(href='/raport') Jurusan IPS
+                                        li
+                                            a(href='') Tentang
+                                        li
+                                            a(href='') Kontak
+            br
+            br
+            table
+                tbody
+                    tr
+                        td Nama
+                        td  :
+                        td RENDI WAHYUDI
+                    tr
+                        td NISN/NIS
+                        td  :
+                        td 10890078
+                    tr
+                        td Nama Sekolah
+                        td  :
+                        td SMA BANDAR LAMPUNG
+                    tr
+                        td Tahun Pelajaran
+                        td  :
+                        td 2019/2020
+                    tr
+                        td Kelas
+                        td  :
+                        td XI (Sebelas)
+                    tr
+                        td Semester
+                        td  :
+                        td Ganjil
+                    tr
+                        td Jurusan
+                        td  :
+                        td IPS
+            br
+            table.table
+                thead.text-primary
+                    tr
+                        th
+                            | No
+                        th
+                            | Mata Pelajaran
+                        th
+                            | KKM
+                        th
+                            | Pengetahuan/Angka
+                        th
+                            | Pengetahuan/Huruf
+                        th
+                            | Praktik/Angka
+                        th
+                            | Praktik/Huruf
+                        th
+                            | Sikap/Predikat
+                tbody
+                    tr
+                        td
+                            | 1
+                        td
+                            | Bahasa Indonesia
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 2
+                        td
+                            | Pendidikan Bahasa Indonesia
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 3
+                        td
+                            | Matematika
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 4
+                        td
+                            | Pendidikan Agama Islam
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 5
+                        td
+                            | Pendidikan Kewarganegaraan
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 6
+                        td
+                            | Sejarah
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 7
+                        td
+                            | Sosiologi
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    tr
+                        td
+                            | 8
+                        td
+                            | Ekonomi
+                        td
+                            | 70
+                        td
+                            | 80
+                        td
+                            | Delapan Puluh
+                        td
+                            | 85
+                        td
+                            | Delapan Puluh Lima
+                        td
+                            | A
+                    // ##### Footer Area Start #####
+                    // ##### All Javascript Script #####
+                    // jQuery-2.2.4 js
+                    script(src='loginassets/js/jquery/jquery-2.2.4.min.js')
+                    // Popper js
+                    script(src='loginassets/js/bootstrap/popper.min.js')
+                    // Bootstrap js
+                    script(src='loginassets/js/bootstrap/bootstrap.min.js')
+                    // All Plugins js
+                    script(src='loginassets/js/plugins/plugins.js')
+                    // Active js
+                    script(src='loginassets/js/active.js')
+            button.btn.btn-primary(type='button') Cetak Raport
